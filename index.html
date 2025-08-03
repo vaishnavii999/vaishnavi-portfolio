@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnavi Vemula | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <img src="images/me.jpg" alt="Vaishnavi Vemula" class="hero-image large" />
+    <div class="overlay-text">
+      <h1>Portfolio</h1>
+      <p class="tagline">I’m Vaishnavi Vemula, a 3rd year CS student + web developer. I design stunning, responsive websites that help cafes, creators, and startups go digital and grow the business.</p>
+      <a href="#contact" class="cta-btn">Let’s Build Yours</a>
+      <div class="about"></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Café Website</h3>
+      <a href="https://chimerical-heliotrope-c39608.netlify.app/" target="_blank">View Site</a>
+      <p>A warm, aesthetic design for a cozy cafe. Focused on visuals, menu display, and easy contact flow.</p>
+    </div>
+    <div class="project-card">
+      <h3>Perfume Brand Website</h3>
+      <a href="https://adorable-cajeta-ac650a.netlify.app" target="_blank">View Site</a>
+      <p>Soft, feminine layout with elegance front and center. Product highlights + smooth navigation to reflect brand luxury.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-boxes">
+      <div class="service-box">Custom Website Design (HTML, CSS, JS-based static sites)</div>
+      <div class="service-box">Landing Pages for Cafes, Influencers, or Events</div>
+      <div class="service-box">Product Showcase Sites (for perfumes, clothes, candles, art, etc.)</div>
+      <div class="service-box">Personal Branding Sites (for content creators & freelancers)</div>
+      <div class="service-box">Mobile-Friendly, Clean & Responsive Layouts</div>
+      <div class="service-box">Basic Contact Forms + Google Maps Integration</div>
+      <div class="service-box">Color/Brand Matching & UI Styling Assistance</div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <p>I offer simple, flexible pricing depending on the project and your timeline. Just message me and we’ll figure it out together!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Let’s Make It Happen</h2>
+    <p>Email: <a href="mailto:vaishnavi.vemula.work@gmail.com">vaishnavi.vemula.work@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/916305531603" target="_blank">6305531603</a></p>
+    <form action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">What are you looking for?</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Let’s Make It Happen</button>
+    </form>
+  </section>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
+</body>
+</html>
